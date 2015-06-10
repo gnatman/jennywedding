@@ -12,6 +12,11 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'old-western';
+	src: url('fonts/CM_Old_Western.ttf');
+}
+
 body, html { font-size: 100%; 	padding: 0; margin: 0;}
 
 /* Reset */
@@ -35,7 +40,7 @@ body, html { font-size: 100%; 	padding: 0; margin: 0;}
 }
 
 body {
-    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-family: Times, Arial;
     color: #8ebebc;
 
 }

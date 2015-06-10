@@ -1,7 +1,25 @@
 @charset 'UTF-8';
 
-@font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.0.1');src:url('font/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('font/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
+@font-face{
+	font-family:'FontAwesome';
+	src:url('font/fontawesome-webfont.eot');
+	src:url('font/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+	url('font/fontawesome-webfont.woff') format('woff'),
+	url('font/fontawesome-webfont.ttf') format('truetype'),
+	url('font/fontawesome-webfont.svg#fontawesomeregular') format('svg');
+	font-weight:normal;
+	font-style:normal
+	}
 
+@font-face {
+	font-family: 'old-western';
+	src: url('../fonts/CM_Old_Western.ttf');
+}
+@font-face {
+	font-family: 'coalhandluke';
+	src: url('../fonts/CoalhandLukeTRIAL.otf');
+	src: url('../fonts/CoalhandLuke.ttf');
+}
 /*
 	Prologue 1.1 by HTML5 UP
 	html5up.net | @n33co
@@ -21,7 +39,7 @@
 
 	body,input,textarea,select
 	{
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: Times, Arial;
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
@@ -34,6 +52,14 @@
 		font-weight: 200;
 		color: #666;
 		line-height: 1.5em;
+	}
+	h4
+	{
+		font-family: 'old-western', Times, Arial;
+	}
+	h2
+	{
+	font-family: 'coalhandluke', Times, Arial;
 	}
 	
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
@@ -190,8 +216,8 @@
 		
 			.image img
 			{
-				display: block;
-				width: 100%;
+				#display: block;
+				width: 50%;
 			}
 			
 			.image.avatar48
@@ -208,6 +234,11 @@
 				}
 
 			.image.full
+			{
+				display: block;
+				width: 100%;
+			}
+			.im.full
 			{
 				display: block;
 				width: 100%;
